@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8dcdc;
+    padding: 50px;
+}
+
+select{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #af4c63;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:disabled {
+    background-color: #cccccc;
+}

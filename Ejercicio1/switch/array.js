@@ -35,13 +35,52 @@ console.log (inicial)
 //Recorre el array y suma cada valor.
 
 
-let number=[1,2,3,4,5];
-function suma(params) {
+
+function calcularSuma(array) {
+    let suma=0;
+
+    for (let i = 0;i < array.length;i ++){
+         suma+=array[i];
+        
+    }
+    return suma;
     
 }
+let number=[10,20,30,40,50];
+
+console.log('Suma de los valores: '+calcularSuma(number));
+
+
+//5. Ingresar 3 valores que meta el usuario a un array, utilizando una función.
+
+//Declaramos un array vacío.
+
+
+
+let valorIngresado=[];
+
+function agregarValor() {
+
+    let valor=prompt('Por favor, ingrese un valor');
+
+    valorIngresado.push(valor);
+   
+        
+    }
+   
+
+    for(let i=0; i<3;i++){
+      
+        agregarValor();
+       
+        
+    }
+
+    
+console.log('valores ingresados',valorIngresado)
 
 
 
 
 
-console.log('Suma de los valores: '+ number)
+

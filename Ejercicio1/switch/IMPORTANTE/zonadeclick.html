@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona de clicks</title>
+
+    <style>
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+}
+
+#container{
+
+display: flex;
+
+
+width: 100%;
+height: 100%;
+flex-wrap: wrap;
+
+
+}
+
+#container div{
+     
+    height:50%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+
+    
+}
+
+      
+
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+              
+      
+         <div onclick="pulsar(' izquierda Arriba')">Izquierda arriba</div>
+         <div onclick="pulsar(' Derecha Arriba')">Derecha arriba</div>
+           <div onclick="pulsar(' izquierda abajo')">izquierda Abajo</div>
+        <div onclick="pulsar(' Derecha Izquierdo')">Derecha abajo</div>
+
+       
+        
+
+
+
+    </div>
+    
+</body>
+<script src="zonadeclick.js"></script>
+
+
+
+
+</html>

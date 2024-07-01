@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Aqui empieza el header*/
+
+* {
+
+    padding: 0;
+    list-style: none;
+    margin: 0%;
+    font-family: poppins;
+
+
+
+}
+
+#site-header {
+
+    background-color: rgb(61, 59, 59);
+    color: white;
+    display: flex;
+    padding: 20px 15%;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#site-header h1 {
+
+    letter-spacing: 10px;
+    font-size: 0.8rem;
+   
+
+
+
+}
+
+#site-header ul {
+
+    display: flex;
+
+}
+
+
+#site-header a {
+
+    color: white;
+    text-decoration: none;
+   margin: 0 15px;
+
+
+}
+
+#site-header ul a:hover{
+
+    text-decoration: underline;
+    color: crimson;
+}
+
+
+
+/* Aquí termina el header*/
+
+
+#site-main {
+
+    padding: 50px 15%;
+
+    display: flex;
+    background-color: grey;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+
+}
+
+#site-main article img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 380px;
+
+}
+
+
+
+#site-main article {
+  
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 40%;
+    position: relative;
+    bottom: 0px;
+ 
+}
+
+
+
+#site-main article>div {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#site-main article:hover{
+
+
+    transition: bottom 1s;
+    bottom: 20px;
+    box-shadow: 0px 0px 10px white;
+
+}
+
+#site-main article h2{
+
+    margin-bottom: 18px;
+    color: #343a40;
+    font-size: 18px;
+}
+
+#site-main article p{
+
+    font-size: 14px;
+    color: #555;
+    margin: 20px 0;
+}
+
+
+.fa-gratipay{
+
+    font-size: 24px;
+    color: #555;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#site-mainarticle>div>div{
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.fa-gratipay:hover{
+
+    color: crimson;
+}
+
+#site-footer{
+
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+

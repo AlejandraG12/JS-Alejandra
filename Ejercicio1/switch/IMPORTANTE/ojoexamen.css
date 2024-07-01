@@ -1,0 +1,21 @@
+.caja {
+
+
+    height: 50px;
+    width: 100px;
+    background-color: lightblue;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    transition: left 2s;
+
+
+}
+
+.mover {
+    left: calc(100% - 100px);
+    transition: left 2s;
+
+
+}
+
